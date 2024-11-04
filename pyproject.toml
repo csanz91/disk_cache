@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disk_cache"
+version = "0.0.1"
+description = "Tool to read the Docker Secrets"
+readme = "README.rst"
+authors = [{name = "csm", email = "cesarsanz.91@gmail.com"}]
+license = {text = "MIT"}
+keywords = ["docker", "secrets", "development"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11"
+    "Programming Language :: Python :: 3.12"
+    "Programming Language :: Python :: 3.13"
+]
+
+# [project.urls]
+# Optionally add URLs here
+"Bug Tracker" = "https://github.com/csanz91/disk_cache/issues"
+"Source Code" = "https://github.com/csanz91/disk_cache"
