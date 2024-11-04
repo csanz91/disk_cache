@@ -10,10 +10,10 @@ logger = logging.getLogger(__name__)
 cacheFolder = "../cache"
 
 
-def clear_cache():
-    if os.path.exists(cacheFolder):
-        shutil.rmtree(cacheFolder)
-    os.makedirs(cacheFolder)
+def clear_cache(cache_folder=cacheFolder):
+    if os.path.exists(cache_folder):
+        shutil.rmtree(cache_folder)
+    os.makedirs(cache_folder)
 
 
 def disk_cache(seconds=3600, cache_folder=cacheFolder):
